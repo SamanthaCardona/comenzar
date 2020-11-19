@@ -1,0 +1,121 @@
+#Navbar {
+  background-color: #000;
+  height: 60px;
+  border: 1px solid #000;
+  padding: 20px;
+}
+body {
+  background-color: lightgray;
+}
+#Navbar li {
+  margin-left: 100px;
+  display: inline;
+  padding-bottom: 10px;
+}
+
+#Navbar li a {
+  margin-top: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+#Navbar li a:hover {
+  background-color: purple;
+  color: #fdfc47;
+}
+
+#info {
+  background: linear-gradient(to bottom, #ff427f, #007892);
+}
+
+#info h1,
+h4 {
+  text-align: center;
+  color: black;
+}
+
+.info-hobby1 img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid purple;
+  position: relative;
+}
+
+.info-hobby2 img {
+  width: 200px;
+  height: 220px;
+  border-radius: 50%;
+  border: 7px solid purple;
+  margin: auto;
+  display: block;
+  left: 300px;
+}
+
+.info-hobby3 img {
+  width: 180px;
+  height: 200px;
+  border-radius: 50%;
+  border: 7px solid purple;
+}
+
+.info-hobby4 img {
+  width: 180px;
+  height: 200px;
+  border-radius: 50%;
+  border: 7px solid purple;
+  position: relative;
+}
+.info-hobby5 button {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 7px solid purple;
+}
+
+#info .contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-hobby {
+  margin: 25px;
+}
+.cont-buttons {
+  display: flex;
+  z-index: 1;
+}
+
+.hr {
+  height: 3px;
+  background-color: purple;
+}
+.card {
+  margin: 80px;
+  width: 40%;
+  height: 50%;
+  float: left;
+  border: 7px solid purple;
+  flex-direction: row;
+}
+
+.card-title {
+  color: purple;
+}
+
+.btn4 {
+  width: 100px;
+  height: 50px;
+  background-color: purple;
+  border: 5px solid purple;
+  margin-top: 80px;
+  display: block;
+  margin: auto;
+}
+
+.h1 {
+  margin-top: 50px;
+}
